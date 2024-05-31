@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_host_fragment"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.newsnow.fragments.HomeFragment"
+        android:label="Home">
+    </fragment>
+
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.example.newsnow.fragments.FavoriteFragment"
+        android:label="Info">
+    </fragment>
+</navigation>
